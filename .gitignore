@@ -4,3 +4,9 @@ node_modules/
 .env
 .env.local
 .DS_Store
+
+# Requests saved while running the app on this computer
+data/requests.csv
+
+# Claude Code settings for this computer
+.claude/
