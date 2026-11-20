@@ -21,3 +21,25 @@ created_at,requester_name,location,description,priority,status
 2026-08-26T16:58:00Z,Grant Pemberton,Chicago,"Front entrance card reader is slow to respond, sometimes needs three taps",High,New
 2026-08-27T14:12:00Z,Sofia Marchetti,Denver,Request a second recycling pickup each week,Low,New
 2026-08-28T17:45:00Z,Alison Vo,Minneapolis,"Air conditioning in suite 220 is not cooling, staff moved to the open area",Urgent,New
+2026-10-07T15:00:00Z,Workplace Coordinator,Minneapolis,MSP-01 site visit follow-up: Recheck the east wing temperature on the next visit (owner: Workplace Coordinator),Medium,Complete
+2026-10-27T15:00:00Z,Workplace Coordinator,Denver,DEN-01 site visit follow-up: Replace the rear stairwell emergency light battery (owner: Maintenance Technician),Medium,Complete
+2026-10-27T15:00:00Z,Priya Raman,Minneapolis,Send the redlined contract to Corvid Analytics legal (from meeting: Weekly leadership sync),Medium,New
+2026-10-27T15:00:00Z,Marcus Hale,Minneapolis,Review the security questionnaire (from meeting: Weekly leadership sync; waiting on: Send the redlined contract to Corvid Analytics legal),Medium,New
+2026-10-27T15:00:00Z,Tomás Vega,Minneapolis,Share the customer survey results with the team (from meeting: Weekly leadership sync),Medium,Complete
+2026-10-30T15:00:00Z,Dana Okafor,Minneapolis,Finalize the Q1 headcount plan (from meeting: Q1 planning kickoff),Medium,New
+2026-10-30T15:00:00Z,Marcus Hale,Minneapolis,Schedule the pricing project kickoff (from meeting: Q1 planning kickoff; waiting on: Finalize the Q1 headcount plan),Medium,New
+2026-10-30T15:00:00Z,Elena Brandt,Minneapolis,Draft the Q1 budget summary for the board (from meeting: Q1 planning kickoff),Medium,New
+2026-10-30T15:00:00Z,Unassigned,Minneapolis,Confirm the offsite venue (from meeting: Q1 planning kickoff),Medium,New
+2026-11-02T15:00:00Z,Tomás Vega,Minneapolis,Request updated pricing from Corvid Analytics (from meeting: Vendor review: Corvid Analytics),Medium,New
+2026-11-02T15:00:00Z,Priya Raman,Minneapolis,Compare the renewal terms with last year's contract (from meeting: Vendor review: Corvid Analytics; waiting on: Request updated pricing from Corvid Analytics),Medium,New
+2026-11-02T15:00:00Z,Elena Brandt,Minneapolis,Book the renewal decision call (from meeting: Vendor review: Corvid Analytics; waiting on: Send the redlined contract to Corvid Analytics legal),Medium,New
+2026-11-04T15:00:00Z,Workplace Coordinator,Chicago,CHI-02 site visit follow-up: Plumbing vendor to replace the kitchenette sink trap (owner: Vendor),Medium,New
+2026-11-04T15:00:00Z,Dana Okafor,Minneapolis,Compile the pipeline numbers for the deck (from meeting: Board deck prep),Medium,New
+2026-11-04T15:00:00Z,Priya Raman,Minneapolis,Write the product update slide (from meeting: Board deck prep),Medium,New
+2026-11-04T15:00:00Z,Elena Brandt,Minneapolis,Send the draft deck to the board chair (from meeting: Board deck prep; waiting on: Compile the pipeline numbers for the deck),Medium,New
+2026-11-04T15:00:00Z,Dana Okafor,Minneapolis,Update the hiring slide (from meeting: Board deck prep),Medium,Complete
+2026-11-06T15:00:00Z,Workplace Coordinator,Austin,AUS-01 site visit follow-up: Electrician to assess the server closet circuit (owner: Vendor),High,New
+2026-11-10T15:00:00Z,Workplace Coordinator,Minneapolis,MSP-02 site visit follow-up: Replace or recertify the loading dock fire extinguisher (owner: Safety Inspector),High,New
+2026-11-13T15:00:00Z,Workplace Coordinator,Denver,DEN-01 site visit follow-up: Restock wet floor signs (owner: Workplace Coordinator),Low,New
+2026-11-14T15:00:00Z,Workplace Coordinator,Minneapolis,MSP-01 site visit follow-up: Schedule the HVAC vendor to inspect the east wing rooftop unit (owner: Vendor),High,New
+2026-11-15T15:00:00Z,Workplace Coordinator,Chicago,CHI-01 site visit follow-up: Repair or swap the two sit-stand desks on the second floor (owner: Maintenance Technician),Medium,New
