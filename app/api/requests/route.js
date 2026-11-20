@@ -5,7 +5,12 @@
 */
 
 import { NextResponse } from "next/server";
-import { createRequest, findProblems, listRequests } from "../../../lib/requests";
+import {
+  createRequest,
+  findOpenDuplicate,
+  findProblems,
+  listRequests,
+} from "../../../lib/requests";
 
 // Always read the data fresh. Never serve a saved copy of an old answer.
 export const dynamic = "force-dynamic";
@@ -44,6 +49,20 @@ export async function POST(request) {
     const problems = findProblems(input);
     if (problems.length > 0) {
       return NextResponse.json({ error: problems.join(" ") }, { status: 400 });
+    }
+
+    // Refuse an exact copy of a request that is still open, so the same
+    // problem is not logged twice.
+    const duplicate = await findOpenDuplicate(input);
+    if (duplicate) {
+      return NextResponse.json(
+        {
+          error:
+            "This request has already been logged and is still open (request #" +
+            duplicate.id + ", status " + duplicate.status + "). It was not saved again.",
+        },
+        { status: 409 }
+      );
     }
 
     const saved = await createRequest(input);
